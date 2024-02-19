@@ -1,0 +1,11 @@
+Platforma “Micro-social platform” cu urmatoarele functionalitati: 
+➢ Sa existe cel putin 3 tipuri de utilizatori: vizitator neinregistrat, utilizator  inregistrat si administrator.
+➢ Orice utilizator poate sa caute persoane in platforma si sa vizualizeze profilul  persoanelor respective. Cautarea se poate face atat dupa intregul nume, cat si  dupa parti care compun numele. Profilul trebuie sa fie gasit si in cazul in  care un utilizator cauta doar anumite parti din numele utilizatorului. Profilul poate fi vizualizat doar daca este un profil public. 
+➢ Utilizatorii inregistrati pot sa creeze si sa isi editeze un profil prin care se pot  conecta cu alti membri 
+➢ Utilizatorii se pot alatura unor grupuri de persoane doar in momentul in care  au un cont activ in platforma . 
+➢ Fiecare utilizator isi poate stabili vizibilitatea profilului - public sau privat - in momentul in care isi editeaza profilul. 
+➢ Utilizatorii pot posta in platforma mesaje (postari) de tip media: text, imagini  si videoclip-uri de pe alte platforme (embedded) si pot discuta intre ei  prin intermediul comentariilor lasate la aceste postari. De asemenea, un  utilizator poate edita si sterge propriile comentarii si postari. Un utilizator nu  poate edita si sterge comentariile scrise de un alt utilizator in platforma . 
+➢ Daca utilizatorul face parte dintr-un anumit grup, acesta poate trimite mesaje  catre grupul respectiv si poate edita si sterge propriile mesaje din grup.
+➢ Utilizatorul poate primi sau trimite cereri de urmarire, dar doar in momentul  in care cererea ii este acceptata de celalalt utilizator, poate vizualiza profilul  acestuia. Cererea se trimite doar in cazul in care profilul este privat. Daca  profilul este public, orice utilizator poate sa vizualizeze informatiile existente  in contul respectiv . 
+➢ Administratorul se ocupa de buna functionare a platformei. Acesta poate  sterge orice continut (comentarii, mesaje, utilizatori, etc.) considerat  neadecvat. 
+
