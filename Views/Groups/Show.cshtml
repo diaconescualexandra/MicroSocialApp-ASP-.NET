@@ -1,0 +1,46 @@
+﻿@model proiectasp.Models.Group
+
+<div class="d-flex flex-row justify-content-evenly p-3">
+
+    <a class="btn btn-dark" href="/Groups/Index/"> <i class="bi bi-person-bounding-box"></i> Afiseaza toate grupurile</a>
+
+    @if (Model.UserId == ViewBag.UserCurent || ViewBag.EsteAdmin)
+    {
+        <form method="post" action="/Groups/Delete/@Model.GroupId">
+            <button class="btn btn-danger" type="submit">Sterge grup</button>
+        </form>
+
+        <a class="btn btn-success" href="/Groups/Edit/@Model.GroupId"> <i class="bi bi-pencil-fill"></i> Editeaza grup</a>
+    }
+
+</div>
+
+<div class="row">
+
+    <div class="col-12">
+        <h5 class="card-title" name="Name">@Model.GroupName</h5>
+        <br />
+        <br />
+        <div>Postari in grup:</div>
+        <br /><br />
+    </div>
+
+    @if (Model.GroupPosts.Count > 0)
+    {
+        @foreach (var groupPost in Model.GroupPosts)
+        {
+            <div class="col-12">
+                <div class="card" style="width: 100%;">
+                    @*<img src="..." class="card-img-top" alt="..."> *@
+
+                    <div class="card-body">
+
+
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+</div>
+

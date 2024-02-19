@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Following";
+}
+
+<h2>Following</h2>
+
+@if (TempData.ContainsKey("message"))
+{
+    <h1>@ViewBag.message</h1>
+}
+
+@foreach (var following in ViewBag.FollowLists)
+{
+    @Html.Label("CategoryName", "Denumire categorie")
+    <p>@following.UserX</p>
+    <a class="btn alert-success" href="/FollowList/Show/@following.Id">Urmaresti pe</a>
+    <br />
+    <hr />
+    <br />
+}

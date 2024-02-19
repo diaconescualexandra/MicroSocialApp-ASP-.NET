@@ -1,0 +1,100 @@
+﻿@model proiectasp.Models.Post
+
+<h2>Afisare postari</h2>
+<br />
+@if (TempData["message"] != null)
+{
+    <div class="alert @ViewBag.Alert p-3 rounded-3 text-center mb-5">
+        @ViewBag.Message
+    </div>
+}
+
+<br />
+<a class="btn btn-dark" href="/Posts/New"> <i class="bi bi-clipboard2-plus-fill"></i> Scrie o postare</a>
+<br />
+<div class="d-flex flex-row">
+    @foreach (var post in ViewBag.Posts)
+    {
+        <div class="card">
+
+            <div class="card-body">
+
+                <div class="card-text1">@post?.PostCaption</div>
+                <br />
+                <div class="card-text">@post?.PostContent</div>
+                @if (!string.IsNullOrEmpty(post?.Image))
+                {
+                    <img src="@Url.Content(post.Image)" alt="Post Image" class="img-fluid" />
+                }
+
+                <div class="d-flex justify-content-evenly flex-row flex-wrap mt-5">
+
+                    <a class="btn btn-success" href="/Posts/Show/@post.PostId"> <i class="bi bi-clipboard-heart-fill"></i> Afisare postare</a>
+
+                    <span class="alert-success">@post?.PostCreationTime</span>
+
+                </div>
+
+                @if (ViewBag.UserCurent == post.UserId || ViewBag.EsteAdmin)
+                {
+                    <div>
+
+                        <a class="btn btn-outline-primary" href="/Posts/Edit/@post.PostId">
+                            <i class="bi bi-pencil-square"></i>Editeaza
+                        </a>
+
+                    </div>
+                }
+                @if (ViewBag.UserCurent == post.UserId)
+                {
+                    <div>
+
+                        <form method="post" action="/Posts/Delete/@post.PostId">
+
+                            <button class="btn btn-outline-danger" type="submit"><i class="bi bi-trash"></i>Sterge</button>
+
+                        </form>
+
+                    </div>
+                }
+
+            </div>
+        </div>
+        <br />
+
+        <br />
+    }
+</div>
+
+<div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Posts/Index?page=1" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            @for (int i = 1; i <= ViewBag.lastPage; i++)
+            {
+                <li class="page-item">
+                    <a class="page-link"
+                       href="/Posts/Index?page=@i">@(i)</a>
+                </li>
+            }
+
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Posts/Index?page=@(ViewBag.lastPage)" arialabel="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+
+
+
+
+

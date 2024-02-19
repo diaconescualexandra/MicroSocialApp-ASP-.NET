@@ -1,0 +1,14 @@
+﻿@model proiectasp.Models.ApplicationUser
+
+<h2>Afisare utilizator</h2>
+<br />
+
+<p>@Model.UserName</p>
+<p>@Model.Signature</p>
+<br />
+
+<a href="/Users/Index/"> Afisare useri </a>
+
+<form method="post" action="/Users/Delete/@Model.Id">
+    <button type="submit">Sterge userul</button>
+</form>

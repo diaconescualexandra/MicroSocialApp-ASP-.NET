@@ -1,0 +1,24 @@
+﻿@model proiectasp.Models.ApplicationUser
+
+<h2>Editare user</h2>
+<br />
+
+<form method="post" action="/Users/Edit/@Model.Id">
+    <label>Nume</label>
+    <br />
+    @Html.TextBox("UserName", null, new { @class = "form-control"})
+    @Html.ValidationMessage("UserName", null ,  new { @class = "text-danger" })
+    <br /><br />
+
+    <label>Semnatura</label>
+    <br />
+    @Html.TextBox("Signature", null, new { @class = "form-control"})
+    @Html.ValidationMessage("Signature", null ,  new { @class = "text-danger" })
+    <br /><br />
+
+    <label>Lock status</label>
+    <br />
+    <input type="text" name="LockStatus" value="@Model.LockStatus" />
+    <br />
+    <button type="submit">Modifica user</button>
+</form>

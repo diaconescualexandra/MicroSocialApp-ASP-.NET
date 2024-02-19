@@ -1,0 +1,14 @@
+﻿@model proiectasp.Models.ApplicationUser
+
+<h2>Formular adaugare user</h2>
+
+<form method="post" action="/Users/New">
+    <label>Nume de utilizator</label>
+    <br />
+    <input type="text" name="UserName" />
+    @Html.TextBox("UserName", null, new { @class = "form-control"})
+    @Html.ValidationMessage("UserName", null ,  new { @class = "text-danger" })
+    <br />
+    <br />
+    <button type="submit">Adauga user</button>
+</form>

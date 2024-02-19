@@ -1,0 +1,191 @@
+﻿@model proiectasp.Models.Post
+
+@if (TempData["message"] != null)
+{
+    <div class="alert @ViewBag.Alert p-3 rounded-3 text-center mb-5">
+        @ViewBag.Message
+    </div>
+}
+<br />
+
+<h2>Afisare postare</h2>
+<br />
+
+<div class="card">
+    <p>@Model.PostCaption</p>
+    <p>@Model.PostContent</p>
+    @if (Model.Image != null)
+    {
+        <img src="@Model.Image" class="card-img" alt="Image" />
+    }
+    <br />
+</div>
+
+<a class="btn btn-dark" href="/Posts/Index/"> <i class="bi bi-clipboard-heart-fill"></i> Afisare postari </a>
+
+<div class="card">
+    <div class="d-flex flex-row justify-content-evenly">
+        @if (ViewBag.UserCurent == Model.UserId || ViewBag.EsteAdmin)
+        {
+            <form method="post" action="/Posts/Delete/@Model.PostId">
+                <button class="btn btn-outline-danger" type="submit"> <i class="bi bi-trash"></i> Sterge postarea</button>
+            </form>
+        }
+        @if (ViewBag.UserCurent == Model.UserId)
+        {
+            <form method="post" action="/Posts/Edit/@Model.PostId">
+                <button class="btn btn-outline-primary" type="submit"> <i class="bi bi-pencil-fill"></i> Editeaza postarea</button>
+            </form>
+        }
+    </div>
+
+    <form method="post" asp-controller="Posts" asp-action="SendToGroup">
+        <input type="hidden" name="PostId" value="@Model.PostId" />
+        <div class="d-flex flex-row justify-content-center p-3 border-1 border-top">
+            <div>
+                <select name="GroupId" class="form-control">
+                    <option selected>Trimite aceasta postare pe grup</option>
+                    @foreach (var group in ViewBag.UserGroups)
+                    {
+                        <option value="@group.Id">@group.Name</option>
+                    }
+                </select>
+            </div>
+            <div>
+                <input type="submit" class="btn btn-success alert-success" value="+" />
+            </div>
+        </div>
+    </form>
+</div>
+<br />
+
+<div class="d-flex flex-column">
+    @foreach (var comment in Model.Comments)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+
+                <div class="col-md-8">
+
+                    <div>
+
+                        <p>@comment.CommentContent</p>
+                        <small>@comment.CommentCreationTime</small>
+                        <strong><i class="bi bi-person"></i>@comment.User.UserName</strong>
+
+                    </div>
+                    <br />
+
+                    <div class="d-flex">
+
+                        @if (ViewBag.UserCurent == Model.UserId || ViewBag.EsteAdmin)
+                        {
+                            <div>
+
+                                <a class="btn btn-outline-primary" href="/Comments/Edit/@comment.CommentId">
+                                    <i class="bi bi-pencil-square"></i>Editeaza
+                                </a>
+
+                            </div>
+                        }
+                        @if (ViewBag.UserCurent == Model.UserId)
+                        {
+                            <div>
+
+                                <form method="post" action="/Comments/Delete/@comment.CommentId">
+
+                                    <button class="btn btn-outline-danger" type="submit"><i class="bi bi-trash"></i>Sterge</button>
+
+                                </form>
+
+                            </div>
+                        }
+
+                    </div>
+                    <br />
+
+                </div>
+
+                <div class="col-md-2"></div>
+
+            </div>
+
+        </div>
+    }
+</div>
+
+@* Afisarea formularului in care se poate adauga un comentariu *@
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+
+            <div class="card">
+
+                <form method="post" action="/Posts/Show/@Model.PostId">
+
+                    <div class="card-body">
+
+                        <input type="hidden" name="PostId" value="@Model.PostId" />
+
+                        <label>Continut comentariu</label>
+                        <br />
+
+                        <textarea class="form-control" name="Content"></textarea>
+
+                        @Html.ValidationMessage("Content", null, new { @class = "text-danger" })
+
+                        <br /><br />
+
+                        <button class="btn btn-success " type="submit"> <i class="bi bi-chat-dots"></i> Adauga comentariul</button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-2"></div>
+
+    </div>
+
+</div>
+
+
+<div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Posts/Show?page=1" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            @for (int i = 1; i <= ViewBag.lastPage; i++)
+            {
+                <li class="page-item">
+                    <a class="page-link"
+                       href="/Posts/Show?page=@i">@(i)</a>
+                </li>
+            }
+
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Posts/Show?page=@(ViewBag.lastPage)" arialabel="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+
+
+

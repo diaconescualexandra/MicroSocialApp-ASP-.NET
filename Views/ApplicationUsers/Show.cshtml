@@ -1,0 +1,99 @@
+﻿@model proiectasp.Models.ApplicationUser
+
+<h2>Afisare utilizator</h2>
+<br />
+
+<div class="d-flex flex-row justify-content-evenly">
+
+    <a class="btn btn-outline-dark" href=" /ApplicationUsers/Index/"> <i class="bi bi-people-fill"></i> Afisare useri </a>
+
+    <br />
+
+    @if (ViewBag.EsteAdmin)
+    {
+        <form method="post" action="/ApplicationUsers/Delete/@Model.Id">
+
+            <button class="btn btn-outline-danger" type="submit"><i class="bi bi-trash"></i> Sterge user</button>
+
+        </form>
+    }
+</div>
+
+
+@if (Model.LockStatus && Model.Id != ViewBag.UserCurent)
+{
+    <p>@Model.UserName</p>
+    <p>@Model.Signature</p>
+    <p>Profilul acestui utilizator este privat. Trimiteti o cerere de urmarire pentru a vedea postarile.</p>
+}
+else
+{
+    <p>@Model.UserName</p>
+    <p>@Model.Signature</p>
+    <div class="d-flex flex-row justify-content-evenly">
+        @foreach (var post in Model.Posts)
+        {
+            @if (post.GroupPosts == null)
+            {
+                <div>
+                    <p>@post.PostCaption</p>
+                    <p>@post.PostContent</p>
+                    <p>@post.PostCreationTime</p>
+                </div>
+            }
+
+            @if (post.UserId == ViewBag.UserCurent || ViewBag.EsteAdmin)
+            {
+                <div class="d-flex flex-row justify-content-evenly">
+                    @if (post.UserId == ViewBag.UserCurent)
+                    {
+                        <div>
+
+                            <a class="btn btn-outline-primary" href="/Posts/Edit/@post.PostId"><i class="bi bi-pencil-square"></i>Editeaza</a>
+
+                        </div>
+                    }
+
+                    <div>
+
+                        <form method="post" action="/Posts/Delete/@post.PostId">
+
+                            <button class="btn btn-outline-danger" type="submit"><i class="bi bi-trash"></i>Sterge</button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            }
+        }
+    </div>
+    <div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link"
+                       href="/ApplicationUsers/Show?page=1" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                @for (int i = 1; i <= ViewBag.lastPage; i++)
+                {
+                    <li class="page-item">
+                        <a class="page-link"
+                           href="/ApplicationUsers/Show?page=@i">@(i)</a>
+                    </li>
+                }
+
+                <li class="page-item">
+                    <a class="page-link"
+                       href="/ApplicationUsers/Show?page=@(ViewBag.lastPage)" arialabel="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+}
+
+<br />

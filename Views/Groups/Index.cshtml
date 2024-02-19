@@ -1,0 +1,63 @@
+﻿<h2 class="text0center">Afisare Grupuri</h2>
+
+<br />
+<a class="btn btn-success rounded-pill mb-5" href="/Groups/New">Creeaza un nou grup</a>
+<br />
+
+@if (TempData["message"] != null)
+{
+    <h2 class="alert @ViewBag.Alert p-3 rounded-3 text-center mb-5">@ViewBag.Message</h2>
+}
+
+<br />
+
+<div class="d-flex flex-row">
+
+    @foreach (var grup in ViewBag.Groups)
+    {
+        <div class="col-4 mb-4">
+
+            <div class="card text-dark p-1">
+
+                <div class="card-body">
+
+                    <h5 class="card-title" name="Name">@grup.GroupName</h5>
+
+                    <div>@grup.GroupDescription</div>
+
+                    <br />
+
+                    <a class="btn btn-dark" href="/Groups/Show/@grup.GroupId"> <i class="bi bi-person-bounding-box"></i> Afisare grup</a>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+
+<div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Groups/Index?page=1" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            @for (int i = 1; i <= ViewBag.lastPage; i++)
+            {
+                <li class="page-item">
+                    <a class="page-link"
+                       href="/Groups/Index?page=@i">@(i)</a>
+                </li>
+            }
+
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Groups/Index?page=@(ViewBag.lastPage)" arialabel="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>

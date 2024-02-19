@@ -1,0 +1,8 @@
+﻿@model proiectasp.Models.Post
+
+<form enctype="multipart/form-data" asp-controller="Posts" asp-action="UploadImage" method="post">
+
+    <input class="form-control" type="file" name="PostImage" />
+    <br />
+    <button class="btn btn-success" type="submit">Post</button>
+</form>

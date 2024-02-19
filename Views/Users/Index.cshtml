@@ -1,0 +1,16 @@
+﻿@model proiectasp.Models.ApplicationUser
+
+<h2>Afisare utilizatori</h2>
+<br />
+@foreach (var user in ViewBag.Users)
+{
+    <p>@user.UserName</p>
+    <p>@user.Signature</p>
+    <br />
+
+    <a href="/Users/Show/@user.Id"> Afisare user </a>
+        < br />
+    <a href="/Users/Edit/@user.Id"> Editare user </a>
+    <hr />
+}
+<a href="/Users/New">Adaugare user</a>
