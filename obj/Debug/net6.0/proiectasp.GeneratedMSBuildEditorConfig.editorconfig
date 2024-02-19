@@ -1,0 +1,147 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = proiectasp
+build_property.RootNamespace = proiectasp
+build_property.ProjectDir = D:\instal_proiecte\coding\anul_2_sem_1\daw_asp\Diaconescu_Alexandra_Radu_Ioana\proiectasp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\instal_proiecte\coding\anul_2_sem_1\daw_asp\Diaconescu_Alexandra_Radu_Ioana\proiectasp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/ApplicationUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/ApplicationUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/ApplicationUsers/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xTaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Comments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/FollowLists/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sbG93TGlzdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/FollowLists/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sbG93TGlzdHNcU2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Groups/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Groups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Groups/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXE5ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Groups/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXFNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Posts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Posts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Posts/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Posts/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcU2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Posts/UploadImage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcVXBsb2FkSW1hZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Users/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Users/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/instal_proiecte/coding/anul_2_sem_1/daw_asp/Diaconescu_Alexandra_Radu_Ioana/proiectasp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mmjbvb0zwg

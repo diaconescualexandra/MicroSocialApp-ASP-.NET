@@ -1,0 +1,297 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\proiectasp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\proiectasp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\images\\DSC_0015.JPG",
+      "PackagePath": "staticwebassets\\images\\DSC_0015.JPG"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\images\\DSC_0038.JPG",
+      "PackagePath": "staticwebassets\\images\\DSC_0038.JPG"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\images\\DSC_0040.JPG",
+      "PackagePath": "staticwebassets\\images\\DSC_0040.JPG"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\images\\DSC_1017.JPG",
+      "PackagePath": "staticwebassets\\images\\DSC_1017.JPG"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\images\\Mercedes-Benz-E-Class-Coupe-PCP-module-image.jpg",
+      "PackagePath": "staticwebassets\\images\\Mercedes-Benz-E-Class-Coupe-PCP-module-image.jpg"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\images\\Screenshot 2023-04-14 223607.jpg",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2023-04-14 223607.jpg"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\images\\custom_resized_.jpg",
+      "PackagePath": "staticwebassets\\images\\custom_resized_.jpg"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\images\\tam.png",
+      "PackagePath": "staticwebassets\\images\\tam.png"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\instal_proiecte\\coding\\anul_2_sem_1\\daw_asp\\ProiectAspAl\\proiectasp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.proiectasp.props",
+      "PackagePath": "build\\proiectasp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.proiectasp.props",
+      "PackagePath": "buildMultiTargeting\\proiectasp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.proiectasp.props",
+      "PackagePath": "buildTransitive\\proiectasp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.proiectasp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
